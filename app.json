@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/class/class",
+    "pages/menu/menu",
+    "pages/week_plan/week_plan",
+    "pages/index/index",
+    "pages/noodle/noodle",
+    "pages/drink/drink",
+    "pages/mutton/mutton",
+    "pages/my/my",
+    "pages/detail/detail",
+    "pages/index_2/index_2",
+    "Sokoban/index/index",
+    "Sokoban/game/game",
+    "Sokoban/logs/logs",
+    "puzzle/index/index",
+    "puzzle/game/game"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#663399",
+    "navigationBarTitleText": "OUC-今天吃啥好",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#328KKB",
+    "list": [
+      {
+        "pagePath": "pages/menu/menu",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_blue.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_blue.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
+
