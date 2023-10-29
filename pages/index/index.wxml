@@ -1,0 +1,26 @@
+<view class ="page-container">
+<view class="container">
+  <view>兰州美食</view>
+  <div class="img">
+    <image src="/images/兰州市.jpg" alt="Image 1" />
+  </div>
+  <view class="detail">
+    <view class="bar">
+      <view class="box">面食</view>
+      <view class="box">饮品</view>
+      <view class="box">羊肉</view>
+    </view>
+    <view class="bar">
+      <view class="box" catchtap="navigateToLogs">
+        <image src="/images/牛肉面.jpg"></image>
+      </view>
+      <view class="box" catchtap="navigateToLogs1">
+        <image src="/images/灰豆子.jpg"></image>
+      </view>
+        <view class="box" catchtap="navigateToLogs2">
+        <image src="/images/手抓羊肉.jpg"></image>
+      </view>
+    </view>
+  </view>
+</view>
+</view>

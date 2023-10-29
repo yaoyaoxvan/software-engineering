@@ -1,0 +1,30 @@
+<view class ="page-container">
+  <view class="container">
+  <view>羊肉</view>
+  <div class="img">
+    <image src="/images/烤全羊.jpg" alt="Image 1" />
+  </div>
+  <view class="detail">
+    <view class="bar">
+      <view class="box">羊肉泡馍</view>
+      <view class="box">黄焖羊肉</view>
+      <view class="box">羊杂碎</view>
+    </view>
+    <view class="bar">
+      <view class="box">
+        <image src="/images/羊肉泡馍.jpg"></image>
+        <text bindtap='goToDetail' data-id='{{1}}'>{{news.title}}——{{news.add_date}}</text>
+      </view>
+      <view class="box">
+        <image src="/images/黄焖羊肉.jpg"></image>
+        <text bindtap='goToDetail' data-id='{{1}}'>{{news.title}}——{{news.add_date}}</text>
+      </view>
+      <view class="box">
+        <image src="/images/羊杂碎.jpg"></image>
+        <text bindtap='goToDetail' data-id='{{1}}'>{{news.title}}——{{news.add_date}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+</view>
+

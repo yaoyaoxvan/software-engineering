@@ -1,0 +1,49 @@
+swiper{
+  height: 400rpx;
+ }
+ 
+ .page-container{
+   background-color: #195e9e;
+ }
+ .slide-image{
+   width: 100%;
+   height: 100%;
+ }
+ /*swiper图片*/
+ swiper image{
+  width: 800rpx;
+  height: 400rpx;
+ }
+ .container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.detail{
+  width: 100%;
+  height: 300rpx;
+  display: flex;
+  flex-direction: column;
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    margin: 1rpx 0;
+}
+.box{
+  width: 50%;
+  text-align: center;
+}
+.box image{
+  width: 150rpx;
+  height: 150rpx;
+  
+}
+.page_view{
+  padding: 25rpx;
+  margin: 25rpx;
+  background-color: white;
+}

@@ -1,0 +1,54 @@
+.page-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 35px;
+  padding-top: 30px;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 20px;
+
+}
+.page-container{
+  background-image: url('https://img2.baidu.com/it/u=4201790323,1259242876&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=641'); /* 替换成您的图片路径 */
+  background-size: cover; /* 可根据需要调整图片的大小适应 */
+  background-repeat: no-repeat; /* 防止背景图片重复 */
+  background-position: center; /* 图片在容器中居中 */
+}
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+.detail{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    margin: 20rpx 0;
+}
+.box{
+  width: 50%;
+  text-align: center;
+  margin-left: 20px; /* 左侧间距 */
+  margin-right: 20px; /* 右侧间距 */
+}
+
+image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+text{
+  font-size: 80rpx;
+  color: #3C5F81;
+}

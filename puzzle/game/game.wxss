@@ -1,0 +1,11 @@
+/* 提示图样式 */
+image{
+  width: 250rpx;
+  height: 250rpx;
+}
+/* 画布样式 */
+canvas{
+  border:1rpx solid;
+  width:300px;
+  height: 300px;
+}

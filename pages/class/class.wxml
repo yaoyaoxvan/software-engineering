@@ -1,0 +1,20 @@
+<view class ="page-container">
+  <view>选择喜爱的口味</view>
+<view class="container">
+  <view class="detail">
+    <view class="bar">
+      <view class="box">重口味</view>
+      <view class="box">清淡</view>
+    </view>
+    <view class="bar">
+      <view class="box" catchtap="navigateToLogs1">
+        <image src="/images/牛肉面.jpg"></image>
+      </view>
+      <view class="box" catchtap="navigateToLogs2">
+        <image src="/images/灰豆子.jpg"></image>
+      </view>
+
+    </view>
+  </view>
+</view>
+</view>

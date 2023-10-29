@@ -1,0 +1,23 @@
+<view class ="page-container">
+<view class="container">
+  <view>风景名胜</view>
+  <view class="detail">
+    <view class="bar">
+      <view class="box">中山桥</view>
+      <view class="box">白塔山</view>
+      <view class="box">五泉山</view>
+    </view>
+    <view class="bar">
+      <view class="box" catchtap="navigateToLogs">
+        <image src="https://img1.baidu.com/it/u=514800081,1201438007&fm=253&fmt=auto&app=138&f=JPEG?w=749&h=500g"></image>
+      </view>
+      <view class="box" catchtap="navigateToLogs1">
+        <image src="/images/灰豆子.jpg"></image>
+      </view>
+        <view class="box" catchtap="navigateToLogs2">
+        <image src="/images/手抓羊肉.jpg"></image>
+      </view>
+    </view>
+  </view>
+</view>
+</view>

@@ -1,0 +1,48 @@
+<view class ="page-container">
+<view class="container">
+  <view>面食</view>
+  <div class="img">
+    <image src="/images/灰豆子.jpg" alt="Image 1" />
+  </div>
+  <view class="detail">
+    <view class="bar">
+      <view class="box">灰豆子</view>
+      <view class="box">甜醅子</view>
+      <view class="box">热冬果</view>
+    </view>
+    <view class="bar">
+      <view class="box">
+        <image src="/images/灰豆子1.jpg"></image>
+        <text bindtap='goToDetail' data-id='{{4}}'>{{news.title}}——{{news.add_date}}</text>
+      </view>
+      <view class="box">
+        <image src="/images/甜醅子.jpg"></image>
+        <text bindtap='goToDetail' data-id='{{5}}'>{{news.title}}——{{news.add_date}}</text>
+      </view>
+      <view class="box">
+        <image src="/images/热冬果.jpg"></image>
+        <text bindtap='goToDetail' data-id='{{6}}'>{{news.title}}——{{news.add_date}}</text>
+      </view>
+    </view>
+    <view class="bar">
+      <view class="box">牛奶鸡蛋醪糟</view>
+      <view class="box">三炮台</view>
+      <view class="box">杏皮水</view>
+    </view>
+    <view class="bar">
+      <view class="box">
+        <image src="/images/牛奶鸡蛋醪糟.jpg"></image>
+        <text bindtap='goToDetail' data-id='{{7}}'>{{news.title}}——{{news.add_date}}</text>
+      </view>
+      <view class="box">
+        <image src="/images/三炮台.jpg"></image>
+        <text bindtap='goToDetail' data-id='{{8}}'>{{news.title}}——{{news.add_date}}</text>
+      </view>
+      <view class="box">
+        <image src="/images/杏皮水.jpg"></image>
+        <text bindtap='goToDetail' data-id='{{9}}'>{{news.title}}——{{news.add_date}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+</view>

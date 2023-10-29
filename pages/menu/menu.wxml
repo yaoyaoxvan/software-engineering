@@ -1,0 +1,42 @@
+<!--pages/index/index.wxml-->
+<view class ="page-container">
+<!--幻灯片滚动-->
+<swiper indicator-dots="true" autoplay="true" interval="5000" duration="500">
+  <block wx:for="{{swiperImg}}" wx:key='swiper{{index}}'>
+    <swiper-item>
+      <image src="{{item.src}}"class="slide-image"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<!--列表-->
+<view class="page_view">
+<view class="detail">
+  <view class="bar">
+    <view class="box">早餐</view>
+    <view class="box">中餐</view>
+  </view>
+  <view class="bar">
+    <view class="box" catchtap="navigateToLogs1">
+      <image src="https://img2.baidu.com/it/u=3302766525,1597623612&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500"></image>
+    </view>
+    <view class="box" catchtap="navigateToLogs2">
+      <image src="https://img2.baidu.com/it/u=1199849857,3744806115&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=937"></image>
+    </view>
+  </view>
+</view>
+<view class="detail">
+  <view class="bar">
+    <view class="box">晚餐</view>
+    <view class="box">周计划</view>
+  </view>
+  <view class="bar">
+    <view class="box" catchtap="navigateToLogs3">
+      <image src="https://img0.baidu.com/it/u=748736807,2384460744&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500"></image>
+    </view>
+    <view class="box" catchtap="navigateToLogs4">
+      <image src="https://img0.baidu.com/it/u=637798801,3706771914&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500"></image>
+    </view>
+  </view>
+</view>
+</view>
+</view>

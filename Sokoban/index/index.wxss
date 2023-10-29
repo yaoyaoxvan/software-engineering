@@ -1,0 +1,41 @@
+.container_1 {
+
+  color: #E64340;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+} 
+.title{
+  font-size: 18pt;
+}
+.levelBox{
+  width: 100%;
+}
+.box{
+  width: 50%;
+  float: left;
+  margin: 20rpx 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+image{
+  width: 300rpx;
+  height: 300rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

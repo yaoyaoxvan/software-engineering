@@ -1,0 +1,31 @@
+<view class ="page-container">
+<view class="container">
+  <view>面食</view>
+  <div class="img">
+    <image src="/images/拉面.jpg" alt="Image 1" />
+  </div>
+  <view class="detail">
+    <view class="bar">
+      <view class="box">牛肉面</view>
+      <view class="box">浆水面</view>
+      <view class="box">炒面片</view>
+    </view>
+    <view class="bar">
+      <view class="box" >
+        <image src="/images/牛肉面.jpg"></image>
+        <text bindtap='goToDetail' data-id='{{1}}'>{{news.title}}——{{news.add_date}}</text>
+      </view>
+      <view class="box">
+        <image src="/images/浆水面.jpg"></image>
+        <text bindtap='goToDetail' data-id='{{2}}'>{{news.title}}——{{news.add_date}}
+        </text>    
+      </view>
+      <view class="box">
+        <image src="/images/炒面片.jpg"></image>
+        <text bindtap='goToDetail' data-id='{{3}}'>{{news.title}}——{{news.add_date}}
+       </text>
+      </view>
+    </view>
+  </view>
+</view>
+</view>
